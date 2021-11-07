@@ -1,0 +1,15 @@
+name: sense
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.7
+  - jupyter
+  - matplotlib
+  - numpy
+  - scikit-learn
+  - xarray
+  - netcdf4
+  - pip
+  - pip:
+    - nd==0.3.1
